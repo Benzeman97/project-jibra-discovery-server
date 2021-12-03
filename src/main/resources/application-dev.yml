@@ -5,13 +5,10 @@ eureka:
     service-url:
        defaultZone: 'http://${discovery.server.hostName}:${discovery.server.port}/eureka'
 
-
-
 discovery:
   server:
     port: 8070
     hostName: 127.0.0.1
-
 
 management:
   endpoint:
