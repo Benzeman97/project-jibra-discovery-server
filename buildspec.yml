@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - gradle clean 
-      - gradle build build -x test
+      - gradle build -x test
       - echo Logging in to Amazon ECR...
       - aws --version
       - $(aws ecr get-login --region use-east-2 --no-include-email)
