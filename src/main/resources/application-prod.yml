@@ -8,7 +8,7 @@ eureka:
 discovery:
   server:
     port: 8070
-    hostName: 3.140.254.141
+    hostName: 3.13.5.65
 
 management:
   endpoint:
