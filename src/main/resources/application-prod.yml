@@ -10,6 +10,14 @@ discovery:
   server:
     port: 8070
     hostName: 18.119.40.220
+    
+server:
+  ssl:
+    key-alias: https-discovery-server
+    key-store-type: JKS
+    key-password: 14292Eureka
+    key-store: classpath:https-discovery-server.jks
+    key-store-password: 14292Eureka    
 
 management:
   endpoint:
