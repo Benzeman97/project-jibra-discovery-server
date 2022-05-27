@@ -10,9 +10,9 @@ sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
-    maven {
-        url 'D:/Build Tools/.m2/repository'
-    }
+   // maven {
+        // url 'D:/Build Tools/.m2/repository'
+  //  }
 }
 
 ext {
