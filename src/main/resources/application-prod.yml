@@ -9,7 +9,7 @@ eureka:
 discovery:
   server:
     port: 8070
-    hostName: 3.138.208.151
+    hostName: 3.128.7.237
     
 #server:
   #ssl:
